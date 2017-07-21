@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'qdm162607672.my3w.com';
-$db['default']['username'] = 'qdm162607672';
-$db['default']['password'] = 'lgg930514';
-$db['default']['database'] = 'qdm162607672_db';
+$db['default']['hostname'] = '';
+$db['default']['username'] = '';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
