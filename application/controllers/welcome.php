@@ -20,11 +20,6 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 
-		$rRow=$this->db->select('*')->from('news')->where(array('is_display'=>'1'))->get();
-		if($rRow->num_rows()<1)return false;
-		echo "<pre>";
-		var_export($rRow->result_array());exit();
-		return $rRow->row_array();
 		$this->load->view('welcome_message');
 	}
 }
