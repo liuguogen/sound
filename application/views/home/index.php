@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-  <title>首页 - 深圳音响有限公司网站模板</title>
+  <title>首页 - 音响安装 音响调试 家庭影院</title>
   <meta name="keywords" content="" /> 
   <meta name="description" content="" /> 
   <link rel="stylesheet" href="assets/css/min.css" type="text/css" /> 
@@ -17,7 +17,7 @@
   <div class="top"> 
    <div class="top-box"> 
     <div class="web-value">
-     欢迎访问深圳音响有限公司官方网站！
+     欢迎访问音响安装网站！
     </div> 
     <div class="top-search">
      <form action="/search" method="post"> 
