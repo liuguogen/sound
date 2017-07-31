@@ -16,7 +16,7 @@
   <!--[if IE 7]><link rel="stylesheet" href="http://demo15-3.kd200.com/static/fontawesome/css/font-awesome-ie7.min.css" type="text/css"><![endif]-->
   <link rel="stylesheet" href="../assets/css/pc.css" type="text/css" />
   
-  <script type="text/javascript" src="http://demo15-3.kd200.com/assets/web/global/js/core.v2.js?v=3.9"></script>
+  <script type="text/javascript" src="../assets/js/js.js"></script>
  </head>
  <body id="page_n6">
   <?php $this->load->view('public/header') ?>
@@ -186,6 +186,6 @@
   </div>
   <?php  $this->load->view('public/footer') ?>
   <script>$(function(){var w1=$(".kefu .ico2").width();$(".kefu>div").on("mouseover",function(){if($(this).hasClass("kefu-qrcode")){$(this).children(".qrcode").show()}else{if(!$(this).hasClass("to-top")){var w=$(this).find(".ico2").width()+$(this).find("p").width()+10;$(this).stop().animate({"width":w+"px"},200)}}}).on("mouseout",function(){if($(this).hasClass("kefu-qrcode")){$(this).children(".qrcode").hide()}else{if(!$(this).hasClass("to-top")){$(this).stop().animate({"width":(w1+"px")},200)}}});$(".to-top").click(function(){$("html,body").animate({"scrollTop":0},300);return false})});$(window).bind("scroll",function(){if(Math.abs($(window).scrollTop())>300){$(".to-top").fadeIn()}else{$(".to-top").fadeOut()}});</script>
-  <script src="/i2880004158/Upload/cn/theme/pc/js.js?v=3.9" type="text/javascript"></script>
+  <script src="../assets/js/pc.js" type="text/javascript"></script>
  </body>
 </html>

@@ -58,6 +58,18 @@ class Index_controller extends CI_Controller {
 	public function news() {
 		$this->load->view('home/news');
 	}
+	/**
+	**案例
+	**/
+	public function cases() {
+		$this->load->view('home/case');
+	}
+	/**
+	* 联系我们
+	**/
+	public function contact() {
+		$this->load->view('home/contact');
+	}
 }
 
 /* End of file welcome.php */

@@ -42,6 +42,8 @@ $route['default_controller'] = "index_controller";
 $route['about'] = "index_controller/about";//关于我们
 $route['product'] = 'index_controller/product';//产品展示
 $route['news'] = 'index_controller/news';//新闻中心
+$route['cases']='index_controller/cases';//案例;
+$route['contact']='index_controller/contact';//联系我们
 $route['404_override'] = '';
 
 

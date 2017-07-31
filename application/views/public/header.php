@@ -21,7 +21,7 @@
    </div>
    <div id="nav"> 
     <ul class="menu"> 
-     <li class="selected on m m1"><a href="/">首页</a></li> 
+     <li class="m m1"><a href="/sound">首页</a></li> 
      <li class=" m m2"><a href="<?php echo site_url('about') ?>" class="has_submenu">关于我们</a> 
       <ul class="menu-sub">
        <i class="fa fa-caret-up"></i>
@@ -44,14 +44,14 @@
        <li><a href="/xin-wen-zhong-xin/gong-si-xin-wen/" title="公司新闻">公司新闻</a></li>
        <li><a href="/xin-wen-zhong-xin/xing-ye-xin-wen/" title="行业新闻">行业新闻</a></li>
       </ul></li>
-     <li class=" m m5"><a href="/gong-cheng-an-li/" class="has_submenu">工程案例</a>
+     <li class=" m m5"><a href="<?php echo site_url('cases') ?>" class="has_submenu">工程案例</a>
       <ul class="menu-sub">
        <i class="fa fa-caret-up"></i>
        <li><a href="/gong-cheng-an-li/qiao-liang-led-deng/" title="视频监控工程案例">视频监控工程案例</a></li>
        <li><a href="/gong-cheng-an-li/da-xia-da-ting-led-an-li/" title="周界电子围栏工程案例">周界电子围栏工程案例</a></li>
        <li><a href="/gong-cheng-an-li/gong-si-qian-tai-led-an-li/" title="智能门禁系统工程案例">智能门禁系统工程案例</a></li>
       </ul></li>
-     <li class=" m m6"><a href="/lian-xi-wo-men/">联系我们</a></li>
+     <li class=" m m6"><a href="<?php echo site_url('contact') ?>">联系我们</a></li>
     </ul>
     <div class="clear"></div>
    </div>
@@ -75,5 +75,32 @@
     </div>
    </div>
    <script>
-   $(function(){var object1 = {effect:"left",titCell:"#banner_cwin_tab_page1 a",prevCell:"#banner_cwin_prev1",nextCell:"#banner_cwin_next1",trigger:"click",mainCell:"#banner_cwin_content1",interTime:5000,delayTime:500,autoPlay:true};var object2 = window.banner_slide1Option;if(typeof(object2) === "object"){$.extend(true, object1, object2);};$("#banner_slide1").slide(object1);});</script>
+   $(function(){var object1 = {effect:"left",titCell:"#banner_cwin_tab_page1 a",prevCell:"#banner_cwin_prev1",nextCell:"#banner_cwin_next1",trigger:"click",mainCell:"#banner_cwin_content1",interTime:5000,delayTime:500,autoPlay:true};var object2 = window.banner_slide1Option;if(typeof(object2) === "object"){$.extend(true, object1, object2);};$("#banner_slide1").slide(object1);
+
+    //选中
+    var url=window.location.href;
+    var str=url.substring(url.lastIndexOf('/')+1);
+    switch(str.split('.')[0]) {
+      case 'about':
+        $('.m2').addClass('selected on').siblings().removeClass('selected on');
+        break;
+      case 'product':
+       $('.m3').addClass('selected on').siblings().removeClass('selected on');
+       break;
+      case 'news':
+       $('.m4').addClass('selected on').siblings().removeClass('selected on');
+       break;
+      case 'cases':
+       $('.m5').addClass('selected on').siblings().removeClass('selected on');
+       break;
+      case 'contact':
+       $('.m6').addClass('selected on').siblings().removeClass('selected on');
+       break;
+      default :
+      
+        $('.m1').addClass('selected on').siblings().removeClass('selected on');
+        break;
+    }
+
+   });</script>
   </div>
