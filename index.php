@@ -19,6 +19,8 @@
  *
  */
 	define('ENVIRONMENT', 'development');
+	define('IS_POST',$_SERVER['REQUEST_METHOD'] =='POST' ? true : false);
+	define('IS_GET',$_SERVER['REQUEST_METHOD'] =='GET' ? true : false);
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING

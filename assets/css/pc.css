@@ -1,0 +1,114 @@
+#contact-i td{width:300px;text-align:center;line-height:32px;}
+#contact-i td p, #contact-i td br{margin:0;padding:0}
+#contact-i td strong{font-size:20px;line-height:42px;}
+#contact-i td td{width:100%}
+.more-url-foot{clear:both;}
+.more-url-foot a{padding: 9px 35px; border-radius: 20px;}
+.more-url-foot a:hover{background-color:#e10015;color:#fff}
+.top{background-color: #333;color: #ddd;border-bottom:0}
+.top a,.top-search form .formbutton i{color:#ddd !important}
+.screenfull_body .cssheader,.screenfull_body #breadcrumbs{display:none;}
+#page_n1 .cssheader{display:block;}
+.header-bg{height:80px;margin: auto;min-width:1200px;width:100%;transition: all .3s linear;z-index:9999;background-color:#fff}
+.fixed{position:fixed;left:0;top:0;right:0;height:60px;display:block !important;opacity: 0.8;box-shadow: 0px 1px 4px #ddd;}
+.fixed #header,.fixed #header img{height:60px;}
+.fixed #nav{top:0;}
+.fixed #nav ul li a{height:60px;line-height:60px;}
+.fixed #nav ul li ul{*padding-top:0}
+#header{width:300px;position: absolute;margin-left: -600px;left: 50%;transition: all .3s linear;height:80px;}
+#header img{max-height:80px}
+#logo a{line-height:80px;display:block;}
+#nav{width:900px;position: absolute;left: 50%;margin-left: -300px;top:0;}
+#nav ul{width: auto;float: right;}
+#nav ul li ul{background:none;}
+#nav ul li ul li{border-top: 1px solid #ef2f41;}
+#nav ul li a{line-height:80px;height:80px;min-width:80px;text-align: center;transition: all .3s linear}
+#nav ul li:last-child a{border-right:0}
+#nav ul li a:hover,#nav ul li.on a, .dis-more a:hover{background:#e10015;color:#fff}
+#nav ul li li a:hover,#nav ul li.on li a{background:#e10015;color:#fff}
+#nav ul li ul i{color:#e10015;background:none;}
+#nav ul li li a,#nav ul li a:hover li a,#nav ul li.on li a{color:#fff;font-weight:normal;border-right:0}
+#nav ul li .menu-sub li{background:#e10015;color:#fff}
+#nav ul li li a:hover{background:#222;}
+.screenfull_body .sidebar .blocklist .on a,
+.screenfull_body .sidebar .blocklist ul li a,
+.screenfull_body .tab-hd li.on,.sidebar .cssheader, .sidebar .cssheader a
+{background-color:#e10015;font-weight:normal;color:#fff;}
+.screenfull_body .sidebar .blocklist .on ul li a,.screenfull_body .sidebar .blocklist ul li a{background-color:#f5f5f5;color:#333}
+.screenfull_body .tab-hd li.on a{color:#fff;}
+.screenfull_body .sidebar .blocklist li ul{margin-left:0;border:0;border: 1px solid #ddd;border-top:0}
+.screenfull_body .sidebar .blocklist ul li a{border-top: 1px solid #ddd;}
+#banner .cwin_tab_page a.on{background:#e10015;}
+#banner .cwin_tab_page a{border-color:#fff}
+.screenfull_body .sidebar h2{display:block;}
+.screenfull_body .sidebar li.on li a:hover,#pagination  a:hover,
+#pagination a.curr, #pagination a.curr:hover{background-color:#e10015;color:#fff}
+.gridbox{margin-bottom:20px;padding-bottom:5px}
+.product .gridbox .dis-desc{height:45px; overflow:hidden;}
+.gridbox:hover img{
+ -webkit-transform:scale(1.2);
+ -moz-transform:scale(1.2);
+ transform:scale(1.2);
+-webkit-transition:all 1s; 
+-moz-transition:all 1s; 
+transition:all 1s linear; 
+}
+.grid .column4 .pic,.grid .column4 .pic img{height:196px;}
+ .product .gridbox .pic img{height:188px;}
+.product .gridbox .pic{height:208px; border: 1px solid #ddd;}
+.product .gridbox .pic a{display:block;margin:10px;height:188px;overflow:hidden}
+.grid-item:hover .pic{border-color:#e10015}
+.product .gridbox .dis-wrapper .title a,.photo .gridbox .dis-wrapper .title a,.photo .gridbox .dis-wrapper .title {line-height:36px;text-align:center;padding: 0 15px;display: block;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.subnav-foot,#footer{background:#222;color:#999}
+.footer-content{padding:25px 0;min-height:auto;}
+.subnav-foot  .subnav-body{border-bottom:1px solid #999}
+.subnav-foot a, #footer a {color: #999;}
+.subnav-foot .subnav-body{line-height:32px;}
+.listbox{border-bottom:0}
+.related .cssheader{display:block; margin-bottom:20px}
+.article .dis-wrapper .title a{padding:0;text-align:left}
+.cwin_class .dis-wrapper .title a{font-size:18px}
+.dis-more{padding-top:15px;}
+.dis-more a{
+    background-color: #e10015;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+.date-article .listbox:hover .list-left{background-color:#e10015}
+.date-article .list-left{border-right:0}
+.date-article .listbox:hover .list-left .time{color:#fff;}
+.sidebar li a.selected, .sidebar .blocklist li a:hover,.sidebar .blocklist li li a.selected{border-left:2px solid #e10015;font-weight:500;background-color:#f1f1f1}
+.screenfull_body .sidebar li a.selected,.screenfull_body .sidebar .blocklist li a:hover{border-left:0}
+.screenfull_body .sidebar .cssitem, .screenfull_body .sidebar .cwin_class, .screenfull_body .sidebar .subnav_class
+, .screenfull_body .side-menu
+, .side-ads{background:none}
+#page_n1 #body{margin-bottom:0;width: 100%;}
+#page_n1 .cssdesc{text-align:center;}
+#page_n1 .cssitem{width:1224px;margin:10px auto;padding-top:20px;padding-bottom:50px}
+#page_n1 .cssheader{display:block;border-bottom:0;text-align:center;width: 200px;margin-left: auto; margin-right: auto;}
+#page_n1 .cssheader h2, #page_n1 .cssheader h2 span,#page_n1 .more-url a{font-size:20px;}
+#page_n1 #content .cssheader h2 span{float:none}
+#com_67,#com_55{background-color: #f1f1f1; width:100% !important}
+#com_67 .cssbody,#com_55 .cssbody{width: 1224px; margin: auto;}
+#page_n1 #com_55{margin-bottom:0}
+.sidebar .cssheader{line-height:50px;}
+#content .cssheader h2 span{display: block;float: left;border-bottom: 2px solid #e10015;font-width:700}
+#page_n1 #com_93{padding-bottom:20px}
+#com_93 .grid-item{text-align:center;cursor:pointer}
+#com_93 .grid-item .title{font-size:18px;margin-bottom:20px;}
+#com_93 .pic img,#com_93 .pic{
+width:auto;
+height:auto;
+margin-bottom:10px;
+} 
+#com_93  .grid-item:hover  img{
+-moz-transform: rotate(360deg); 
+-webkit-transform: rotate(360deg); 
+-o-transform: rotate(360deg); 
+-ms-transform: rotate(360deg); 
+transform: rotate(360deg); 
+-webkit-transition:all 0.8s ease-in-out; 
+-moz-transition:all 0.8s ease-in-out; 
+transition:all 0.8s ease-in-out; 
+}

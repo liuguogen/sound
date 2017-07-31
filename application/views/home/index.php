@@ -5,93 +5,16 @@
   <title>首页 - 音响安装 音响调试 家庭影院</title>
   <meta name="keywords" content="" /> 
   <meta name="description" content="" /> 
-  <link rel="stylesheet" href="assets/css/min.css" type="text/css" /> 
+  <link rel="stylesheet" href="./assets/css/min.css" type="text/css" /> 
  
-  <link rel="stylesheet" href="assets/css/font.css" type="text/css" /> 
-  <link rel="stylesheet" href="assets/css/font-min.css" type="text/css" /> 
-  <link rel="stylesheet" href="assets/css/css.css" type="text/css" />  
+  <link rel="stylesheet" href="./assets/css/font.css" type="text/css" /> 
+  <link rel="stylesheet" href="./assets/css/font-min.css" type="text/css" /> 
+  <link rel="stylesheet" href="./assets/css/css.css" type="text/css" />  
   
   <script type="text/javascript" src="http://demo15-3.kd200.com/assets/web/global/js/core.v2.js?v=3.9"></script> 
  </head> 
  <body class="home" id="page_n1"> 
-  <div class="top"> 
-   <div class="top-box"> 
-    <div class="web-value">
-     欢迎访问音响安装网站！
-    </div> 
-    <div class="top-search">
-     <form action="/search" method="post"> 
-      <input name="searchkey" size="18" value="搜索关键词" onclick="this.value=''" id="searchquery" /> 
-      <button type="submit" value="搜索" class="formbutton pointer" id="searchbutton"><i class="fa fa-search"></i></button>
-      <input type="hidden" name="formToken" value="6666cd76f96956469e7be39d750cc7d9_a6852d417edd910684694d89e6952dd3" />
-     </form> 
-    </div> 
-   </div> 
-  </div> 
-  <div class="header-bg"> 
-   <div id="header">
-    <div id="logo">
-     <a href="/" title="深圳音响有限公司网站模板"> <img src="http://demo15-3.kd200.com/i2880004158/Upload/cn/logo/201707/BfEzvFEkbMHSNPDPznU268ciCbL7UnWh.png" alt="深圳音响有限公司网站模板" /></a> 
-    </div> 
-    <div class="clear"></div> 
-   </div>
-   <div id="nav"> 
-    <ul class="menu"> 
-     <li class="selected on m m1"><a href="/">首页</a></li> 
-     <li class=" m m2"><a href="/about/" class="has_submenu">关于我们</a> 
-      <ul class="menu-sub">
-       <i class="fa fa-caret-up"></i>
-       <li><a href="/about/" title="公司介绍">公司介绍</a></li>
-       <li><a href="/qi-ye-wen-hua/" title="企业文化">企业文化</a></li>
-       <li><a href="/rong-yu-zi-zhi/" title="荣誉资质">荣誉资质</a></li>
-      </ul></li>
-     <li class=" m m3"><a href="/chan-pin-zhan-shi/" class="has_submenu">产品展示</a>
-      <ul class="menu-sub">
-       <i class="fa fa-caret-up"></i>
-       <li><a href="/chan-pin-zhan-shi/mi-ni-yin-xiang/" title="迷你音响">迷你音响</a></li>
-       <li><a href="/chan-pin-zhan-shi/jia-ting-ying-yuan/" title="家庭影院">家庭影院</a></li>
-       <li><a href="/chan-pin-zhan-shi/hui-yin-bi-soundbar/" title="回音壁/Soundbar">回音壁/Soundbar</a></li>
-       <li><a href="/chan-pin-zhan-shi/hifi-zhuan-qu/" title="Hi-Fi专区">Hi-Fi专区</a></li>
-       <li><a href="/chan-pin-zhan-shi/gong-fang/" title="功放">功放</a></li>
-      </ul></li>
-     <li class=" m m4"><a href="/xin-wen-zhong-xin/" class="has_submenu">新闻中心</a>
-      <ul class="menu-sub">
-       <i class="fa fa-caret-up"></i>
-       <li><a href="/xin-wen-zhong-xin/gong-si-xin-wen/" title="公司新闻">公司新闻</a></li>
-       <li><a href="/xin-wen-zhong-xin/xing-ye-xin-wen/" title="行业新闻">行业新闻</a></li>
-      </ul></li>
-     <li class=" m m5"><a href="/gong-cheng-an-li/" class="has_submenu">工程案例</a>
-      <ul class="menu-sub">
-       <i class="fa fa-caret-up"></i>
-       <li><a href="/gong-cheng-an-li/qiao-liang-led-deng/" title="视频监控工程案例">视频监控工程案例</a></li>
-       <li><a href="/gong-cheng-an-li/da-xia-da-ting-led-an-li/" title="周界电子围栏工程案例">周界电子围栏工程案例</a></li>
-       <li><a href="/gong-cheng-an-li/gong-si-qian-tai-led-an-li/" title="智能门禁系统工程案例">智能门禁系统工程案例</a></li>
-      </ul></li>
-     <li class=" m m6"><a href="/lian-xi-wo-men/">联系我们</a></li>
-    </ul>
-    <div class="clear"></div>
-   </div>
-  </div>
-  <div id="banner">
-   <div id="banner_slide1" class="cwin_class cwin_class_banner" style="margin:0 auto;width:100%;height:480px; "> 
-    <div id="banner_cwin_box1"> 
-     <ul id="banner_cwin_content1">
-      <li style="width:100%;height:480px; background:url(http://demo15-3.kd200.com/i2880004158/Upload/cn/slice/201707/FRQHZotHxTb0dvLxoaK5rubjDJXxvSRm.jpg) center top no-repeat;background-size:cover;"></li>
-      <li style="width:100%;height:480px; background:url(http://demo15-3.kd200.com/i2880004158/Upload/cn/slice/201707/StShc7fMUqdCqdPhJj0CUyVICQQKtJNG.jpg) center top no-repeat;background-size:cover;"></li>
-     </ul>
-     <div class="clear"></div>
-    </div>
-    <div class="cwin_tab_page" id="banner_cwin_tab_page1">
-     <a href="javascript:;">1</a>
-     <a href="javascript:;">2</a>
-    </div>
-    <div class="cwin_triggers" id="banner_cwin_triggers1"> 
-     <a class="prev" id="banner_cwin_prev1" href="javascript:void(0);"><b class="corner"></b><span>&lt;</span><b class="corner"></b></a> 
-     <a class="next" id="banner_cwin_next1" href="javascript:void(0);"><b class="corner"></b><span>&gt;</span><b class="corner"></b></a> 
-    </div>
-   </div>
-   <script>$(function(){var object1 = {effect:"left",titCell:"#banner_cwin_tab_page1 a",prevCell:"#banner_cwin_prev1",nextCell:"#banner_cwin_next1",trigger:"click",mainCell:"#banner_cwin_content1",interTime:5000,delayTime:500,autoPlay:true};var object2 = window.banner_slide1Option;if(typeof(object2) === "object"){$.extend(true, object1, object2);};$("#banner_slide1").slide(object1);});</script>
-  </div>
+  <?php $this->load->view('public/header') ?>
   <div id="body" class=" screenfull_body">
    <div id="content" class=" screenfull">
     <div id="com_93" class="cssitem grid original-img cwin_class">
@@ -440,80 +363,12 @@
    </div>
    <div class="clear"></div>
   </div>
-  <div id="com_53" class="subnav-wrap subnav-foot">
-   <div class="subnav-body">
-    <div class="subnav_class subnav-item0">
-     <h2><a href="/about/" title="关于我们"><span>关于我们</span></a></h2>
-     <ul class="blocklist">
-      <li><a href="/about/">公司介绍</a></li>
-      <li><a href="/qi-ye-wen-hua/">企业文化</a></li>
-      <li><a href="/rong-yu-zi-zhi/">荣誉资质</a></li>
-     </ul>
-    </div>
-    <div class="subnav_class subnav-item1">
-     <h2><a href="/chan-pin-zhan-shi/" title="产品展示"><span>产品展示</span></a></h2>
-     <ul class="blocklist">
-      <li><a href="/chan-pin-zhan-shi/mi-ni-yin-xiang/">迷你音响</a></li>
-      <li><a href="/chan-pin-zhan-shi/jia-ting-ying-yuan/">家庭影院</a></li>
-      <li><a href="/chan-pin-zhan-shi/hui-yin-bi-soundbar/">回音壁/Soundbar</a></li>
-      <li><a href="/chan-pin-zhan-shi/hifi-zhuan-qu/">Hi-Fi专区</a></li>
-      <li><a href="/chan-pin-zhan-shi/gong-fang/">功放</a></li>
-     </ul>
-    </div>
-    <div class="subnav_class subnav-item2">
-     <h2><a href="/xin-wen-zhong-xin/" title="新闻中心"><span>新闻中心</span></a></h2>
-     <ul class="blocklist">
-      <li><a href="/xin-wen-zhong-xin/gong-si-xin-wen/">公司新闻</a></li>
-      <li><a href="/xin-wen-zhong-xin/xing-ye-xin-wen/">行业新闻</a></li>
-     </ul>
-    </div>
-    <div class="subnav_class subnav-item3">
-     <h2><a href="/gong-cheng-an-li/" title="工程案例"><span>工程案例</span></a></h2>
-     <ul class="blocklist">
-      <li><a href="/gong-cheng-an-li/qiao-liang-led-deng/">视频监控工程案例</a></li>
-      <li><a href="/gong-cheng-an-li/da-xia-da-ting-led-an-li/">周界电子围栏工程案例</a></li>
-      <li><a href="/gong-cheng-an-li/gong-si-qian-tai-led-an-li/">智能门禁系统工程案例</a></li>
-     </ul>
-    </div>
-    <div class="subnav_class subnav-item4">
-     <h2><span>联系我们</span></h2>
-     <div class="subnav-ext">
-      <p> <span style="line-height:1.5;">电话：400-888-8888</span> </p> 
-      <p> 手机：188-888-8888 </p> 
-      <p> 邮箱：website@xx.com </p> 
-      <p> 地点：中国&middot;深圳&middot;罗湖&middot;某某大厦x栋xxxx </p>
-     </div>
-    </div>
-    <div class="clear"></div>
-   </div>
-  </div>
-  <div id="footer">
-   <div class="footer-content">
-    <p> <span style="line-height:1.5;">版权所有 &copy; 2015&nbsp;深圳音响有限公司网站模板 （www.xxx.com）All Rights Reserved</span> </p>
-   </div>
-  </div>
-  <div class="kefu">
-   <div class="kefu-phone kefuitem">
-    <a href="javascript:;"><i class="ico2 fa fa-phone"></i><p>400-888-3333</p></a>
-   </div>
-   <div class="kefu-qq kefuitem">
-    <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=121132&amp;site=qq&amp;menu=yes"><i class="ico2 fa fa-qq"></i><p>小李</p></a>
-   </div>
-   <div class="kefu-envelope kefuitem">
-    <a href="mailto:ling@abc.com"><i class="ico2 fa fa-envelope"></i><p>ling@abc.com</p></a>
-   </div>
-   <div class="kefu-qrcode kefuitem">
-    <div class="qrcode"> 
-     <img src="http://demo15-3.kd200.com/i2880004158/Upload/cn/kefu/201706/qrcode.jpg" alt="" /> 
-    </div>
-    <i class="ico2 fa fa-qrcode"></i>
-   </div>
-   <div class="to-top kefuitem">
-    <a href="javascript:;"><i class="ico2"></i>TOP</a>
-   </div>
-  </div> 
+ 
+  <?php  $this->load->view('public/footer') ?>
+
   <script>
-					$(function(){var w1=$(".kefu .ico2").width();$(".kefu>div").on("mouseover",function(){if($(this).hasClass("kefu-qrcode")){$(this).children(".qrcode").show()}else{if(!$(this).hasClass("to-top")){var w=$(this).find(".ico2").width()+$(this).find("p").width()+10;$(this).stop().animate({"width":w+"px"},200)}}}).on("mouseout",function(){if($(this).hasClass("kefu-qrcode")){$(this).children(".qrcode").hide()}else{if(!$(this).hasClass("to-top")){$(this).stop().animate({"width":(w1+"px")},200)}}});$(".to-top").click(function(){$("html,body").animate({"scrollTop":0},300);return false})});$(window).bind("scroll",function(){if(Math.abs($(window).scrollTop())>300){$(".to-top").fadeIn()}else{$(".to-top").fadeOut()}});</script>  
+	$(function(){var w1=$(".kefu .ico2").width();$(".kefu>div").on("mouseover",function(){if($(this).hasClass("kefu-qrcode")){$(this).children(".qrcode").show()}else{if(!$(this).hasClass("to-top")){var w=$(this).find(".ico2").width()+$(this).find("p").width()+10;$(this).stop().animate({"width":w+"px"},200)}}}).on("mouseout",function(){if($(this).hasClass("kefu-qrcode")){$(this).children(".qrcode").hide()}else{if(!$(this).hasClass("to-top")){$(this).stop().animate({"width":(w1+"px")},200)}}});$(".to-top").click(function(){$("html,body").animate({"scrollTop":0},300);return false})});$(window).bind("scroll",function(){if(Math.abs($(window).scrollTop())>300){$(".to-top").fadeIn()}else{$(".to-top").fadeOut()}});
+</script>  
   <script src="http://demo15-3.kd200.com/i2880004158/Upload/cn/theme/pc/js.js?v=3.9" type="text/javascript"></script> 
  </body>
 </html>
