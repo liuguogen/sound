@@ -6,15 +6,15 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../../../assets/aceadmin/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../../../assets/aceadmin/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="../../../assets/aceadmin/font-awesome-4.4.0/css/font-awesome.min.css" />
+    <link href="<?php echo base_url() ?>assets/aceadmin/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/aceadmin/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/aceadmin/font-awesome-4.4.0/css/font-awesome.min.css" />
     
-    <link rel="stylesheet" href="../../../assets/aceadmin/css/ace.min.css" />
-    <link rel="stylesheet" href="../../../assets/aceadmin/css/ace-rtl.min.css" />
-    <link rel="stylesheet" href="../../../assets/aceadmin/css/ace-skins.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/aceadmin/css/ace.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/aceadmin/css/ace-rtl.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url() ?>assets/aceadmin/css/ace-skins.min.css" />
     
-    <script src="../../../assets/aceadmin/js/ace-extra.min.js"></script>
+    <script src="<?php echo base_url() ?>assets/aceadmin/js/ace-extra.min.js"></script>
    
 </head>
 
@@ -36,7 +36,7 @@
             <ul class="nav ace-nav">
                 <li class="light-blue">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="../../../assets/aceadmin/avatars/user.jpg" alt="Jason's Photo" />
+                        <img class="nav-user-photo" src="<?php echo base_url() ?>assets/aceadmin/avatars/user.jpg" alt="Jason's Photo" />
                         <span class="user-info">
                             <small>欢迎光临,</small>
                             <?php echo $this->input->cookie('username'); ?>
@@ -127,28 +127,29 @@
                                             配置信息
                                         </a>
                                     </li>
+
                                 
                             </ul>
                         </li>
                         <li class="b-has-child">
                             <a href="#" class="dropdown-toggle b-nav-parent">
                                 <i class="fa fa-comment icon-test"></i>
-                                <span class="menu-text">学校管理</span>
+                                <span class="menu-text">商品管理</span>
 
                                 <b class="arrow icon-angle-down"></b>
                             </a>
                             <ul class="submenu">
                                 
                                     <li class="b-nav-li">
-                                        <a href="#" target="right_content">
+                                        <a href="<?php echo site_url("default_controller/catList") ?>" target="right_content">
                                             <i class="icon-double-angle-right"></i>
-                                            学校列表
+                                            分类列表
                                         </a>
                                     </li>
                                     <li class="b-nav-li">
-                                        <a href="#" target="right_content">
+                                        <a href="<?php echo site_url("default_controller/goodsList") ?>" target="right_content">
                                             <i class="icon-double-angle-right"></i>
-                                            学校详情
+                                            商品列表
                                         </a>
                                     </li>
                                     <li class="b-nav-li">
@@ -248,30 +249,30 @@
 
 <!--[if !IE]> -->
     <script type="text/javascript">
-        window.jQuery || document.write("<script src='../../../assets/aceadmin/js/jquery-2.0.3.min.js'>"+"<"+"script>");
+        window.jQuery || document.write("<script src='<?php echo base_url() ?>assets/aceadmin/js/jquery-2.0.3.min.js'>"+"<"+"script>");
     </script>
 <!-- <![endif]-->
 
 
 
 <script type="text/javascript">
-    if("ontouchend" in document) document.write("<script src='../../../assets/aceadmin/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
+    if("ontouchend" in document) document.write("<script src='<?php echo base_url() ?>assets/aceadmin/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
 </script>
-<script src="../../../assets/aceadmin/js/bootstrap.min.js"></script>
-<script src="../../../assets/aceadmin/js/typeahead-bs2.min.js"></script>
+<script src="<?php echo base_url() ?>assets/aceadmin/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url() ?>assets/aceadmin/js/typeahead-bs2.min.js"></script>
 <!-- page specific plugin scripts -->
 
 
-<script src="../../../assets/aceadmin/js/jquery-ui-1.10.3.custom.min.js"></script>
-<script src="../../../assets/aceadmin/js/jquery.ui.touch-punch.min.js"></script>
-<script src="../../../assets/aceadmin/js/jquery.slimscroll.min.js"></script>
-<script src="../../../assets/aceadmin/js/jquery.easy-pie-chart.min.js"></script>
-<script src="../../../assets/aceadmin/js/jquery.sparkline.min.js"></script>
-<script src="../../../assets/aceadmin/js/flot/jquery.flot.min.js"></script>
-<script src="../../../assets/aceadmin/js/flot/jquery.flot.pie.min.js"></script>
-<script src="../../../assets/aceadmin/js/flot/jquery.flot.resize.min.js"></script>
-<script src="../../../assets/aceadmin/js/ace-elements.min.js"></script>
-<script src="../../../assets/aceadmin/js/ace.min.js"></script>
+<script src="<?php echo base_url() ?>assets/aceadmin/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="<?php echo base_url() ?>assets/aceadmin/js/jquery.ui.touch-punch.min.js"></script>
+<script src="<?php echo base_url() ?>assets/aceadmin/js/jquery.slimscroll.min.js"></script>
+<script src="<?php echo base_url() ?>assets/aceadmin/js/jquery.easy-pie-chart.min.js"></script>
+<script src="<?php echo base_url() ?>assets/aceadmin/js/jquery.sparkline.min.js"></script>
+<script src="<?php echo base_url() ?>assets/aceadmin/js/flot/jquery.flot.min.js"></script>
+<script src="<?php echo base_url() ?>assets/aceadmin/js/flot/jquery.flot.pie.min.js"></script>
+<script src="<?php echo base_url() ?>assets/aceadmin/js/flot/jquery.flot.resize.min.js"></script>
+<script src="<?php echo base_url() ?>assets/aceadmin/js/ace-elements.min.js"></script>
+<script src="<?php echo base_url() ?>assets/aceadmin/js/ace.min.js"></script>
 <script type="text/javascript">
 $(function(){
     // 导航点击事件
